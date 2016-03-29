@@ -1,0 +1,8 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+            selenium2: ~
+            # The base URL to app you're testing
+            base_url: http://en.wikipedia.org/
